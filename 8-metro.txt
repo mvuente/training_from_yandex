@@ -1,0 +1,14 @@
+There is a tram station. Tram interval A way is a minutes and at B way is b minutes.
+Each tram stays within a minute.
+Tanya counts trams. She counted n trams on A way and m trams on B way.
+What longest and shortest time did Tanya spend on the station?
+
+INPUT:
+a
+b
+n
+m
+
+OUTPUT: minTime maxTime
+
+if Tanya made mistake in her counts, OUTPUT is -1
