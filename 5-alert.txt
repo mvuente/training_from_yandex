@@ -1,0 +1,18 @@
+There is a Building. The building has M floors. There are two flats with numbers K1 and K2.
+K2 is in P2-th block on the N2-th floor (floor number starts at 1).
+In which Block and wich floor is K1? Every floor has the same flats number.
+M, K1, K2, N, P are between 1 and 1000000.(no negative, float or 0)
+INPUT: K1 M K2 P2 N2
+OUTPUT: P1 N1
+
+If input data are wrong (K2 can not be at P2 or at N2) Oputput is -1 -1
+If P1 or N1 couldn't be certainly determined, 0 should be inserted instead of respective variable.
+For example:
+INPUT 89 20 41 1 11
+OUTPUT 2 3
+
+INPUT 3 2 2 2 1
+OUTPUT -1 -1
+
+INPUT 11 1 1 1 1
+OUTPUT 0 1
