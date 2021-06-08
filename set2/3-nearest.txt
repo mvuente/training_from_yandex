@@ -1,0 +1,8 @@
+Need to make a program, which will find in the given array of ints member, closest to the int given.
+INPUT:
+N        - array size. int < 1000
+numbers  - array members.
+x        - number to compare with.
+
+Output:
+result   - array member, closest to x.
