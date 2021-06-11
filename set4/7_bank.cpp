@@ -32,11 +32,8 @@ void	incomer(int sum, map<string, int>& bank)
 	for (auto& b : bank)
 	{
 		if (b.second > 0)
-		{
 			b.second = b.second + (b.second * sum) / 100;
-		}
 	}
-
 	return ;
 }
 
@@ -77,7 +74,6 @@ int 	main()
 			getline(iss, sum, ' ');
 			incomer(stoi(sum, nullptr), bank);
 		}
-
 	}
 	ofs.close();
 	return 0;
